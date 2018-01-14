@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@font-face {
+    font-family: textStil;
+    src: url(Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: principal;
+    src: url(Lusitana-Regular.ttf);
+}
+.row {
+    height: 100%;
+    display: table-row;
+    float: none;
+}
+.row .no-float {
+    display: table-cell;
+    float: none;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+body,
+html,
+.container-full,
+.row {
+    height: 100%;
+}
+.container-full {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    height: 100%;
+}
+.col-md-3 {
+    background-color: #4d525d;
+    font-family: principal;
+    font-weight: 500;
+    font-size: 1.2em; 
+    
+}
+.col-md-9 {
+    background-color: white;
+}
+header#optiuniText {
+    background-color: #4d525d;
+    height: 50px;
+    width: 100%;
+    border-bottom: 0.15em solid #585d69;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: textStil;
+    letter-spacing: 0.5em;
+    font-weight: 700;
+}
+#adaugaFolder {
+    background-color: #4d525d;
+    height: 50px;
+    width: 100%;
+    border: 0.1em solid #6e7482;
+    color: white;
+    text-align: center;
+}
+#follow {
+    background-color: #45455a;
+    height: 50px;
+    width: 100%;
+    border: 0.1em solid #6e7482;
+    color: white;
+    margin-top: 1em;
+    vertical-align: middle;
+}
+header#headerDreapta {
+    background-color: #4d525d;
+    height: 50px;
+    width: 100%;
+    border-bottom: 0.15em solid #585d69;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: textStil;
+    letter-spacing: 0.5em;
+    font-weight: 700;
+}
+.navbar-default {
+    background-color: #4d525d;
+}
+.principal {
+    background-color: #313338;
+    list-style-type: none;
+    color: white;
+    margin-top: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+.fa-plus-square-o:before {
+    padding-right: 1em;
+}
+ul#follow {
+    text-align: center;
+}
+#butonAdaugare{
+    background-color:#99ff99;
+    font-weight: 600;
+    color: white;
+    margin-left: 0.1em;
+}
+#saveDoc{
+      background-color:#aff0be;
+    font-weight: 600;
+    color: white;
+}
+#editDoc{
+    background-color:#8ad6cc;
+    font-weight: 600;
+    color: white;
+    margin: 0.2em;
+}
+#deleteDoc{
+    background-color:#f99192;
+    font-weight: 600;
+    color: white;
+   
+}
+#xFolder{
+      background-color:#f99192; 
+    color: white;
+    margin: 0.2em;
+}
+#edFolder{
+    background-color:#8ad6cc; 
+    margin: 0.2em;
+}
+h1:first-of-type{
+    color:white;
+    font-family: textStil;
+    
+}
+h2{
+     font-family: textStil;
+}
+.folderItem{
+    background-color: #9b9aa9;
+    margin-bottom: 0.3em;
+}
+#folderEditItem{
+    margin-bottom: 0.3em;
+} 
+table {table-layout:fixed}
+td {word-wrap: break-word; word-break: break-all;
+    overflow: auto;
+}
+.space{
+    width: 8%;
+}
